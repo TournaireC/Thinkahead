@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Think AHead',
       theme: ThemeData(primaryColor: Colors.blueGrey),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
