@@ -57,6 +57,7 @@ class _Home extends State<Home>{
         title: Text('-> Think AHead <-'),
         leading: Icon(Icons.play_arrow),
         centerTitle: true,
+        elevation: 15.0,
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
