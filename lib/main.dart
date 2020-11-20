@@ -55,6 +55,7 @@ class _Home extends State<Home>{
     return Scaffold(
       appBar: AppBar(
         title: Text('-> Think AHead <-'),
+        leading: Icon(Icons.play_arrow),
         centerTitle: true,
       ),
       body: Center(
