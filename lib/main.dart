@@ -57,12 +57,11 @@ class _Home extends State<Home>{
         title: Text('-> Think AHead <-'),
         leading: Icon(Icons.play_arrow),
         centerTitle: true,
-        elevation: 15.0,
+        elevation: 50.0,
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
-      backgroundColor: Colors.white70,
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Solo",),
